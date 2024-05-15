@@ -1,5 +1,11 @@
+-- CREACION  Y USO DE LA BASE DE DATOS "POLIDEPORTIVOS"
+
 create database polideportivos;
 use polideportivos;
+
+
+-- ######  COMIENZO DE LAS CREACIONES DE LAS TABLAS ########
+--## Los inserts estan en el archivo Script_insertsPerezDiego.sql ##
 
 create table comisario(
 	id_comisario int primary key,

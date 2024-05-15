@@ -1,3 +1,6 @@
+
+-- ###### Inserts de los datos ###### --
+
 insert into comisario values 
 (1,"Diego","Perez","Nino","3005747753"),
 (2,"juan","Perez2","Nino","300574002"),
