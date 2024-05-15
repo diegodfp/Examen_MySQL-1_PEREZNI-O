@@ -103,3 +103,97 @@ INSERT INTO info_complejo VALUES
 (9, 'Bogota', 65, 3),
 (10, 'Chia', 48, 4);
 
+INSERT INTO complejo_polideportivo VALUES
+(1,'Complejo Deportivo Bucaramanga', 4,2),
+(2,'Complejo Deportivo Sangil',2,6),
+(3,'Complejo Deportivo Soacha', 4,8),
+(4,'Complejo Deportivo Bucaramanga', 5,2),
+(5,'Complejo Deportivo Sangil',3,6),
+(6,'Complejo Deportivo Soacha', 1,8),
+(7,'Complejo Deportivo Sangil',1,6),
+(8,'Complejo Deportivo Soacha', 5,8),
+(9,'Complejo Deportivo Sangil',1,6),
+(10,'Complejo Deportivo Soacha', 5,8);
+
+INSERT INTO complejo_deportivo VALUES
+(1,'Complejo Deportivo Giron', 1,2,3),
+(2,'Complejo Deportivo Floridablanca',3,3,1),
+(3,'Complejo Deportivo Bucaramanga',3,3,2),
+(4,'Complejo Deportivo Soacha',3,3,2),
+(5,'Complejo Deportivo Sangil',3,3,4),
+(6,'Complejo Deportivo Conucos',1,3,3),
+(7,'Complejo Deportivo Norte',5,3,3),
+(8,'Complejo Deportivo Norte',6,3,3),
+(9,'Complejo Deportivo Norte',7,3,3),
+(10,'Complejo Deportivo Bogota',8, 2,4);
+
+INSERT INTO complejo_polideportivo_deportes VALUES
+(1,1,1),
+(2,1,2),
+(3,1,3),
+(4,1,5),
+(5,1,1),
+(6,1,2),
+(7,1,3),
+(8,1,5);
+
+INSERT INTO evento_complejo_poli VALUES
+(1,1,1),
+(2,1,2),
+(3,1,3),
+(4,1,5),
+(5,1,1),
+(6,1,2),
+(7,1,3),
+(8,1,5);
+
+INSERT INTO evento_complejo_deportivo VALUES
+(1,1,1),
+(2,1,2),
+(3,1,3),
+(4,1,5),
+(5,1,1),
+(6,1,2),
+(7,1,3),
+(8,1,5);
+
+INSERT INTO mantenimiento VALUES
+(1,"mantenimiento ciuda bonita"),
+(2,"mantenimiento bar bonita"),
+(3,"mantenimiento asda bonita"),
+(4,"mantenimiento asd bonita"),
+(5,"mantenimiento sss bonita"),
+(6,"mantenimiento xzx bonita"),
+(7,"mantenimiento ffgv bonita"),
+(8,"mantenimiento ffff bonita"),
+(9,"mantenimiento etwetwe bonita"),
+(10,"mantenimiento 1232 bonita");
+
+INSERT INTO mantenimiento_polideportivo_equipamiento VALUES
+(1,1,1,'2028-01-05 14:00:00', '01:45:00'),
+(2,2,1,'2028-01-06 14:00:00', '01:45:00'),
+(3,3,2,'2028-01-07 14:00:00', '01:45:00'),
+(4,4,3,'2028-01-08 14:00:00', '01:45:00'),
+(5,5,4,'2028-01-09 14:00:00', '01:45:00'),
+(6,1,5,'2028-01-01 14:00:00', '01:45:00'),
+(7,2,1,'2028-01-11 14:00:00', '01:45:00'),
+(8,3,6,'2028-01-12 14:00:00', '01:45:00'),
+(9,4,1,'2028-01-14 14:00:00', '01:45:00'),
+(10,1,2,'2028-01-15 14:00:00', '01:45:00')
+;
+
+INSERT INTO mantenimiento_complejo_equipamiento VALUES
+(1,1,1,'2028-01-05 14:00:00', '01:45:00'),
+(2,2,1,'2028-01-06 14:00:00', '01:45:00'),
+(3,3,2,'2028-01-07 14:00:00', '01:45:00'),
+(4,4,3,'2028-01-08 14:00:00', '01:45:00'),
+(5,5,4,'2028-01-09 14:00:00', '01:45:00'),
+(6,1,5,'2028-01-01 14:00:00', '01:45:00'),
+(7,2,1,'2028-01-11 14:00:00', '01:45:00'),
+(8,3,6,'2028-01-12 14:00:00', '01:45:00'),
+(9,4,1,'2028-01-14 14:00:00', '01:45:00'),
+(10,1,2,'2028-01-15 14:00:00', '01:45:00')
+;
+
+
+
