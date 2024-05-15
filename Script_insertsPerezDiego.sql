@@ -107,16 +107,16 @@ INSERT INTO info_complejo VALUES
 (10, 'Chia', 48, 4);
 
 INSERT INTO complejo_polideportivo VALUES
-(1,'Complejo Deportivo Bucaramanga', 4,2),
-(2,'Complejo Deportivo Sangil',2,6),
-(3,'Complejo Deportivo Soacha', 4,8),
-(4,'Complejo Deportivo Bucaramanga', 5,2),
-(5,'Complejo Deportivo Sangil',3,6),
-(6,'Complejo Deportivo Soacha', 1,8),
-(7,'Complejo Deportivo Sangil',1,6),
-(8,'Complejo Deportivo Soacha', 5,8),
-(9,'Complejo Deportivo Sangil',1,6),
-(10,'Complejo Deportivo Soacha', 5,8);
+(1,'Poli Deportivo Bucaramanga', 4,2),
+(2,'Poli Deportivo Sangil',2,6),
+(3,'Poli Deportivo Soacha', 4,8),
+(4,'Poli Deportivo Bucaramanga', 5,2),
+(5,'Poli Deportivo Sangil',3,6),
+(6,'Poli Deportivo Soacha', 1,8),
+(7,'Poli Deportivo Sangil',1,6),
+(8,'Poli Deportivo Soacha', 5,8),
+(9,'Poli Deportivo Sangil',1,6),
+(10,'Poli Deportivo Soacha', 5,8);
 
 INSERT INTO complejo_deportivo VALUES
 (1,'Complejo Deportivo Giron', 1,2,3),
